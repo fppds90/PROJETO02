@@ -15,6 +15,7 @@
     </head>
     <body>
         <%@include file="WEB-INF/jspf/header.jspf"%>
+        <%@include file="WEB-INF/jspf/menu.jspf"%>
         <h1>TABELA PRICE</h1>
         <br/>
         <br/>
