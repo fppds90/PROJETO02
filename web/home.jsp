@@ -13,6 +13,7 @@
     </head>
     <body>
         <%@include file="WEB-INF/jspf/header.jspf"%>
+        <%@include file="WEB-INF/jspf/menu.jspf"%>
         <h1>INFORMAÇÕES SOBRE A EQUIPE</h1>
         <br/>
         <br/>
