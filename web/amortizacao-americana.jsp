@@ -16,9 +16,9 @@
         <%@include file="WEB-INF/jspf/menu.jspf"%>
         <h1>AMORTIZAÇÃO AMERICANA</h1>
         <form>
-            <input type="number" name="Valor"/>
-            <input type="number" name="Tempo"/>
-            <input type="number" name="Juros"/>
+         Valor:   <input type="number" name="Valor"/>
+         Periodo: <input type="number" name="Tempo"/>
+         Taxa de juros ao mes:  <input type="number" name="Juros"/>
             <input type="submit" name="Calcular" Value="Calcular"/>
         </form>
         <%if(request.getParameter("Calcular")!=null){%>
