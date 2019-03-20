@@ -29,6 +29,6 @@
         <br/>
         <h1>FUNCIONALIDADES</h1>
         
-        
+    <%@include file="WEB-INF/jspf/footer.jspf"%>       
     </body>
 </html>
