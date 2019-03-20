@@ -13,6 +13,8 @@
     </head>
     <body>
         <%@include file="WEB-INF/jspf/header.jspf"%>
+        <%@include file="WEB-INF/jspf/menu.jspf"%>   
         <h1>TAREFA 02</h1>
+    <%@include file="WEB-INF/jspf/footer.jspf"%>   
     </body>
 </html>
