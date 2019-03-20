@@ -52,6 +52,6 @@
            <h2 style="color:red"> NUMERO INVALIDO </h2>
            <% } %>
            <% } %>
-       
+    <%@include file="WEB-INF/jspf/footer.jspf"%>   
     </body>
 </html>
