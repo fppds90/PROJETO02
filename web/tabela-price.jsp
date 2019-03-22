@@ -12,24 +12,26 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>TAREFA 02</title>
+        <style>
+    .rodape {
+position: absolute;
+bottom: 0;
+height: 35px;
+line-height: 35px;
+text-align: center;
+width: 100%;
+}
+    </style>
     </head>
     <body>
-        <%@include file="WEB-INF/jspf/header.jspf"%>
+        <%@include file="WEB-INF/jspf/menu.jspf"%>
+        
         <h1>TABELA PRICE</h1>
-        <br/>
-        <br/>
-        <br/>
-        <h3>Onde:</h3>
-        <ul>
-            <li>PMT: prestação</li>
-            <li>PV: valor-presente</li>
-            <li>i: taxa</li>
-            <li>n: período</li>
-        </ul>
+      
         <form>
             Valor presente: <input type="text" name="valorpresente"/>
             Taxa em %: <input type="text" name="taxa"/>
-            Período: <input type="text" name="periodo"/>
+            Período em meses: <input type="text" name="periodo"/>
            <input type="submit" name="enviar"/>
         </form>
                     <%double PMT;%>
@@ -91,4 +93,31 @@
           
         
     </body>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    
+    <footer>
+    <%@include file="WEB-INF/jspf/footer.jspf"%>
+    </footer>
 </html>

@@ -10,9 +10,17 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>TAREFA 02</title>
+        <style>
+    .fixarRodape {
+        bottom: 0;
+        position: fixed;
+        width: 90%;
+        text-align: center;
+    }
+    </style>
     </head>
     <body>
-        <%@include file="WEB-INF/jspf/header.jspf"%>
+        <%@include file="WEB-INF/jspf/menu.jspf"%>
         <h1>AMORTIZAÇÃO CONSTANTE</h1>
         <br>
         <br>
@@ -116,7 +124,32 @@
                 <h2 style="color: red">Número inválido</h2>
             <%}%>
         <%}%>
-        <%@include file="WEB-INF/jspf/footer.jspf"%>
-        
+           
     </body>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <footer>
+    <%@include file="WEB-INF/jspf/footer.jspf"%>
+    </footer>
 </html>
